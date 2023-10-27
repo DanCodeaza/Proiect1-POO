@@ -1,0 +1,136 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object HouseIntro: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 505.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'If you have a good energetic strategy for your house, you will s' +
+      'ave the environment!'
+    TabOrder = 0
+  end
+  object BNext2: TButton
+    Position.X = 512.000000000000000000
+    Position.Y = 400.000000000000000000
+    TabOrder = 1
+    Text = 'Next'
+    OnClick = BNext2Click
+    object House1: TLabel
+      Position.X = -472.000000000000000000
+      Position.Y = -288.000000000000000000
+      Size.Width = 457.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      Text = 
+        'Is your house well insulated?(Insulating your house can save up ' +
+        'to 60% of the energy consumed, leading to reduced CO2 emissions ' +
+        'and lower utility bills)'
+      TabOrder = 4
+    end
+  end
+  object BHouse1: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 153.000000000000000000
+    TabOrder = 2
+    Text = 'Yes'
+    object BHouse2: TRadioButton
+      Position.Y = 27.000000000000000000
+      TabOrder = 19
+      Text = 'No'
+    end
+  end
+  object HouseElectric: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 207.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'What provides you electric energy?'
+    TabOrder = 3
+    object BSolar: TRadioButton
+      Position.Y = 32.000000000000000000
+      Size.Width = 385.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Solar panel on my house'
+      object BRetea: TRadioButton
+        Position.Y = 27.000000000000000000
+        Size.Width = 409.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 19
+        Text = 'I use electricity from the gouvernament suplier'
+        object BHybrid: TRadioButton
+          Position.Y = 24.000000000000000000
+          Size.Width = 417.000000000000000000
+          Size.Height = 19.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 19
+          Text = 
+            'I use solar panel, but also the electricity from the governament' +
+            ' supplier'
+        end
+      end
+    end
+  end
+  object KWHElectricity: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 317.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'How much electric energy do you consume?'
+    TabOrder = 4
+  end
+  object EditElectric: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 288.000000000000000000
+    Position.Y = 317.000000000000000000
+  end
+  object KE: TLabel
+    Position.X = 408.000000000000000000
+    Position.Y = 317.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'KWH'
+    TabOrder = 8
+  end
+  object KWHGas: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 353.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'How much natural gas do you consume?'
+    TabOrder = 9
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 288.000000000000000000
+    Position.Y = 347.000000000000000000
+  end
+  object KG: TLabel
+    Position.X = 408.000000000000000000
+    Position.Y = 347.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'KWH'
+    TabOrder = 7
+  end
+end

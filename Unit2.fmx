@@ -1,0 +1,109 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Start: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Let'#39's start with yourself!'
+    TabOrder = 0
+  end
+  object Activity: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'How much physical effort do you make daily?'
+    TabOrder = 1
+  end
+  object sport1: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 137.000000000000000000
+    TabOrder = 2
+    Text = '2 hours'
+  end
+  object sport2: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 164.000000000000000000
+    TabOrder = 3
+    Text = '4 hours'
+  end
+  object sport3: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 191.000000000000000000
+    TabOrder = 4
+    Text = '8 hours'
+  end
+  object Food: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 225.000000000000000000
+    Size.Width = 249.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'How many kcal do you eat per day?'
+    TabOrder = 5
+  end
+  object BFood1: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 258.000000000000000000
+    TabOrder = 6
+    Text = '1500-2000kcal'
+  end
+  object BFood2: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 285.000000000000000000
+    TabOrder = 7
+    Text = '2000-2500kcal'
+  end
+  object BFood3: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 312.000000000000000000
+    TabOrder = 8
+    Text = '2500-3000kcal'
+  end
+  object Cigarettes: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'How much you smoke a day?'
+    TabOrder = 9
+  end
+  object Bcigarettes1: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 373.000000000000000000
+    TabOrder = 10
+    Text = 'less than a pack'
+  end
+  object Bcigarettes2: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 400.000000000000000000
+    TabOrder = 11
+    Text = 'one pack'
+  end
+  object Bcigarettes3: TRadioButton
+    Position.X = 48.000000000000000000
+    Position.Y = 427.000000000000000000
+    TabOrder = 12
+    Text = 'two packs'
+  end
+  object BNext1: TButton
+    Position.X = 488.000000000000000000
+    Position.Y = 408.000000000000000000
+    TabOrder = 13
+    Text = 'Next'
+    OnClick = BNext1Click
+  end
+end

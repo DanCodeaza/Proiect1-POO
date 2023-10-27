@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Next: TButton
+    Position.X = 520.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 0
+    Text = 'Next'
+  end
+  object LIntro: TLabel
+    Position.X = 40.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 505.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'In 2019, it was estimated that the global transportation sector,' +
+      ' which includes cars, contributed to approximately 24% of energy' +
+      '-related CO2 emissions.'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Position.X = 56.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Label1'
+    TabOrder = 2
+  end
+end
